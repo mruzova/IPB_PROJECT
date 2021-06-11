@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script></script>
+
+<body>
+    <div class="container">
+        <h1>University Admissions Assistance</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-2 mb-3">
+                <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="/requests.html" role="tab" aria-controls="home" aria-selected="true"> New Requests</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="/employee.html" role="tab" aria-controls="contact" aria-selected="false">Pending requests</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="col-md-10">
+                <div class="input-group">
+                    <span class="input-group-text">Country</span>
+                    <input type="text" aria-label="Country" class="form-control" placeholder="Spain">
+
+                </div>
+                <div class="input-group" style="margin-top:20px">
+                    <span class="input-group-text">Field of Study</span>
+                    <input type="text" aria-label="field" class="form-control" placeholder="Marketing">
+
+                </div>
+
+                <ul class="list-group" style="margin-top: 20px;">
+
+                    <li class="list-group-item">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <p style="margin:0">University of Barcelona</p>
+                            <div style="width: 12%; display: flex; justify-content: space-between; align-items: center;">
+                                <button class="btn btn-primary ">Details</button>
+                                <input class="form-check-input " type="checkbox" checked id="flexCheckDefault ">
+                            </div>
+                        </div>
+
+                    </li>
+
+
+
+                    <li class="list-group-item">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <p style="margin:0">University of Madrid</p>
+                            <div style="width: 12%; display: flex; justify-content: space-between; align-items: center;">
+                                <button class="btn btn-primary ">Details</button>
+                                <input class="form-check-input " type="checkbox" checked id="flexCheckDefault ">
+                            </div>
+
+                        </div>
+
+                    </li>
+
+
+                    <li class="list-group-item">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <p style="margin:0">University of Catalonia</p>
+                            <div style="width: 12%; display: flex; justify-content: space-between; align-items: center;">
+                                <button class="btn btn-primary ">Details</button>
+                                <input class="form-check-input " type="checkbox " id="flexCheckDefault ">
+                            </div>
+
+                        </div>
+
+                    </li>
+
+
+                </ul>
+                <button class="btn btn-success" style="margin-top: 50px;">Confirm</button>
+                <button class="btn btn-warning" style="margin-top: 50px;">Calculate Statistics</button>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
